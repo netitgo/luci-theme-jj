@@ -1,5 +1,5 @@
 <div align=center>
-![Image](https://github.com/netitgo/staff/blob/main/JJ%20Logo.png?raw=true)
+<img src="https://github.com/netitgo/staff/blob/main/JJ%20Logo.png?raw=true">
 </div>
 # OpenWRT JJ theme
 
