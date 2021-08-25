@@ -13,7 +13,17 @@
     /* Reset.less
  * Props to Eric Meyer (meyerweb.com) for his CSS reset file. We're using an adapted version here	that cuts out some of the reset HTML elements we will never need here (i.e., dfn, samp, etc).
  * ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
-    
+ @font-face {
+    font-family: 'JiZi';
+    src: url('font/JiZi/JiZi.eot');
+    /* IE9 Compat Modes */
+    src: url('font/JiZi/JiZi.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('font/JiZi/JiZi.woff2') format('woff2'), /* Super Modern Browsers */
+    url('font/JiZi/JiZi') format('woff'), /* Pretty Modern Browsers */
+    url('font/JiZi/JiZi.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('font/JiZi/JiZi.svg#svgFontName') format('svg');
+    /* Legacy iOS */
+}
     @font-face {
         font-family: 'TaipeiSansTC';
         src: url('font/Taipei/TaipeiSansTCBeta-Regular.eot');
@@ -242,7 +252,7 @@
     body {
         background-color: #F1F1F1;
         margin: 0;
-        font-family: TaipeiSansTC, Helvetica, Arial, sans-serif;
+        font-family: Helvetica, Arial, sans-serif;
         font-size: 13px;
         font-weight: normal;
         line-height: 18px;
