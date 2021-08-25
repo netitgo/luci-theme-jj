@@ -1,3 +1,4 @@
+![Image](https://github.com/netitgo/staff/blob/main/JJ%20Logo.png?raw=true)
 # OpenWRT JJ theme
 
 *本主题基于 OpenWrt R21.6.1 版本和Boostrap 主题制作。
