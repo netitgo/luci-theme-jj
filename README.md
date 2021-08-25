@@ -13,7 +13,7 @@
 <img src="https://github.com/netitgo/staff/blob/main/screenshots_main.gif?raw=true">
 </div>
 
-*本主题基于 OpenWrt R21.6.1 版本和Boostrap 主题制作。
+### 本主题基于 OpenWrt R21.6.1 版本和Boostrap 主题制作。
 
 >**主要改动：
 - 引用了ECHART图表插件来制作CPU使用状态和负载状态，内存使用状态等
