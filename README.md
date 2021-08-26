@@ -1,17 +1,17 @@
 <div align=center>
-<img src="https://github.com/netitgo/staff/blob/main/JJ%20Logo.png?raw=true">
+<img src="https://github.com/netitgo/stuff/blob/main/JJ%20Logo.png?raw=true">
 </div>
 
 # OpenWRT JJ theme
 
 ## 首页效果图
 <div align=center>
-<img src="https://github.com/netitgo/staff/blob/main/screenshots_main.png?raw=true">
+<img src="https://github.com/netitgo/stuff/blob/main/screenshots_main.png?raw=true">
 </div>
 
 ## 数据动画图
 <div align=center>
-<img src="https://github.com/netitgo/staff/blob/main/screenshots_main.gif?raw=true">
+<img src="https://github.com/netitgo/stuff/blob/main/screenshots_main.gif?raw=true">
 </div>
 
 ### 本主题基于 OpenWrt R21.6.1 版本和Boostrap 主题制作。
@@ -24,7 +24,7 @@
 - 基本适配了IPHONE手机端
 
 >**还需要做：
-- JS代码整洁性有待提高
+- 精简代码大小
 - 后台首页的各端口流量速度情况功能显示
 - 研究GITHUB的版本控制
 
