@@ -31,7 +31,7 @@
     chmod u+x ./toggleIndex.sh
     ```
     然后运行脚本。
-3. 登录OPENWRT后台选定JJ Theme为默认主题，然后清楚OPENWRT缓存。
+3. 登录OPENWRT后台选定JJ Theme为默认主题，然后清除OPENWRT缓存。
     ```
     rm -rf /tmp/luci-modulecache/*
     rm /tmp/luci-indexcache
