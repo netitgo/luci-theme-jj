@@ -1,7 +1,7 @@
 <%#
  Copyright 2008 Steven Barth <steven@midlink.org>
  Copyright 2008-2016 Jo-Philipp Wich <jow@openwrt.org>
- Copyright 2012 David Menting <david@nut-bolt.nl>
+ Copyright 2021 Jackson Chan <netitgo@gmail.com>
  Licensed to the public under the Apache License 2.0.
 -%>
 
@@ -246,8 +246,6 @@
 </head>
 
 <body class="<%- if node then %><%= striptags( node.title ) %><%- end %> login_body lang_<%=luci.i18n.context.lang%>">
-	
-
 	<% if not category then %>
 		<div class="login_container">
 	<% end -%>
@@ -297,9 +295,7 @@
 	</noscript>
 
 	<%- if category then %>
-		
 		<div class="right_section">
-			
 			<div class="right_section_top">
 				<div class="banner_top">
 					<div class="gutter"></div>
@@ -308,7 +304,6 @@
 							<% if node.title ~= nil then %>
 							<div class="node_name">
 								<%= striptags( translate(node.title) )%>
-								
 							</div>
 							<% end %>
 							<div class="time_container">
