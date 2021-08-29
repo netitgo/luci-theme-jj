@@ -17,7 +17,9 @@
 
 **建议使用lean大的固件进行编译，[地址](https://github.com/coolsnowwolf/lede/)**
 
-步骤：
+由于主题不止改动OPENWRT的CSS，还涉及到默认布局文件，暂时只能是编译安装后再通过SH脚本来修改布局文件名字，系统源文件会在同个位置保留为有'backup_by_JJ'后缀的文件，以方便有问题时的恢复。
+
+**步骤**：
 1. 下载好lean大固件后，进入在package/lean/文件夹下git clone我的主题后，编译菜单里就能出现我的主题了。
 <div align=left>
 <img src="https://user-images.githubusercontent.com/72277244/131247747-61340b2d-753f-4fae-a070-f873aa3d5402.png">
@@ -28,6 +30,7 @@
     ```
     chmod u+x ./toggleIndex.sh
     ```
+    然后运行脚本。
 3. 登录OPENWRT后台选定JJ Theme为默认主题，然后清楚OPENWRT缓存。
     ```
     rm -rf /tmp/luci-modulecache/*
