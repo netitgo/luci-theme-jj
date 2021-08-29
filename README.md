@@ -4,7 +4,7 @@
 
 ### 本主题基于 OpenWrt R21.6.1 版本和Boostrap 主题制作。
 
-建议使用lean大的固件进行编译，地址为：https://github.com/coolsnowwolf/lede
+建议使用lean大的固件进行编译，[地址](https://github.com/coolsnowwolf/lede/)
 
 步骤：
 - 下载好lean大固件后，进入在package/lean/文件夹下git clone我的主题后，编译菜单里就能出现我的主题了。
