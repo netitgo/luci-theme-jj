@@ -24,7 +24,9 @@
 - JS代码整洁性有待提高
 - 后台首页的各端口流量速度情况功能显示
 - 研究GITHUB的版本控制
-***
+
+---
+
 ### 登录效果图（移动端）
 <div align=center>
 <img src="https://github.com/netitgo/stuff/blob/main/screenshots_login_mobile.png?raw=true">
@@ -34,7 +36,8 @@
 <div align=center>
 <img src="https://github.com/netitgo/stuff/blob/main/screenshots_login.png?raw=true">
 </div>
-***
+
+---
 
 ### 首页-目录效果图（移动端）
 <div align=center>
@@ -51,7 +54,8 @@
 <img src="https://github.com/netitgo/stuff/blob/main/screenshots_main.png?raw=true">
 </div>
 
-***
+---
+
 ### 数据动画图
 <div align=center>
 <img src="https://github.com/netitgo/stuff/blob/main/screenshots_main.gif?raw=true">
