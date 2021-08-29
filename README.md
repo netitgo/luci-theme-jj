@@ -1,5 +1,5 @@
 <div align=center>
-<img src="https://github.com/netitgo/stuff/blob/main/JJ%20Logo.png?raw=true">
+<img src="https://github.com/netitgo/stuff/blob/master/JJ%20Logo.png?raw=true">
 </div>
 
 ### 本主题基于 OpenWrt R21.6.1 版本和Boostrap 主题制作。
@@ -43,34 +43,34 @@
 
 ### 登录效果图（移动端）
 <div align=center>
-<img src="https://github.com/netitgo/stuff/blob/main/screenshots_login_mobile.png?raw=true">
+<img src="https://github.com/netitgo/stuff/blob/master/screenshots_login_mobile.png?raw=true">
 </div>
 
 ### 登录-效果图（PC端）
 <div align=center>
-<img src="https://github.com/netitgo/stuff/blob/main/screenshots_login.png?raw=true">
+<img src="https://github.com/netitgo/stuff/blob/master/screenshots_login.png?raw=true">
 </div>
 
 ---
 
 ### 首页-目录效果图（移动端）
 <div align=center>
-<img src="https://github.com/netitgo/stuff/blob/main/screenshots_menu_mobile.gif?raw=true">
+<img src="https://github.com/netitgo/stuff/blob/master/screenshots_menu_mobile.gif?raw=true">
 </div>
 
 ### 首页-效果图（移动端）
 <div align=center>
-<img src="https://github.com/netitgo/stuff/blob/main/screenshots_login_mobile.gif?raw=true">
+<img src="https://github.com/netitgo/stuff/blob/master/screenshots_login_mobile.gif?raw=true">
 </div>
 
 ### 首页-效果图（PC端）
 <div align=center>
-<img src="https://github.com/netitgo/stuff/blob/main/screenshots_main.png?raw=true">
+<img src="https://github.com/netitgo/stuff/blob/master/screenshots_main.png?raw=true">
 </div>
 
 ---
 
 ### 数据动画图
 <div align=center>
-<img src="https://github.com/netitgo/stuff/blob/main/screenshots_main.gif?raw=true">
+<img src="https://github.com/netitgo/stuff/blob/master/screenshots_main.gif?raw=true">
 </div>
