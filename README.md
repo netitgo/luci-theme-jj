@@ -24,44 +24,42 @@
 
 1. **编译安装步骤**：
 
-1.1 下载好lean大固件后，进入在package/lean/文件夹下git clone我的主题
+    1.1 下载好lean大固件后，进入在package/lean/文件夹下git clone我的主题
 
-    ```
-    $ cd lede/packkage/lean
-    $ git clone https://github.com/netitgo/luci-theme-jj.git
-    ```
-    编译菜单里就能出现我的主题了。
+        $ cd lede/packkage/lean
+        $ git clone https://github.com/netitgo/luci-theme-jj.git
+
+
+        编译菜单里就能出现我的主题了。
 
 <div align=left>
 <img src="https://user-images.githubusercontent.com/72277244/131247747-61340b2d-753f-4fae-a070-f873aa3d5402.png">
 </div>
 
-1.2 编译成功和固件安装后，通过SSH到目录路径/www/luci-static/JJTheme/， 赋予文件夹下toggleIndex.sh 运行权限：
+    1.2 编译成功和固件安装后，通过SSH到目录路径/www/luci-static/JJTheme/， 赋予文件夹下toggleIndex.sh 运行权限,运行脚本。：
 
-    ```
-    $ cd /www/luci-static/JJTheme/
-    $ chmod u+x ./toggleIndex.sh
-    $ ./toggleIndex.sh
-    ```
-    然后运行脚本。
+    
+        $ cd /www/luci-static/JJTheme/
+        $ chmod u+x ./toggleIndex.sh
+        $ ./toggleIndex.sh
+    
+    
 
-1.3 登录OPENWRT后台选定JJ Theme为默认主题，然后清除OPENWRT缓存。
+    1.3 登录OPENWRT后台选定JJ Theme为默认主题，然后清除OPENWRT缓存。
 
-    ```
-    $ rm -rf /tmp/luci-modulecache/*
-    $ rm /tmp/luci-indexcache
-    ```
+        $ rm -rf /tmp/luci-modulecache/*
+        $ rm /tmp/luci-indexcache
+
 
 2. **IPK安装步骤**：
 
-2.1 上传IPK文件到tmp，运行
+    2.1 上传IPK文件到tmp，运行
 
-    ```
-    cd /tmp
-    opkg install luci-theme-jj*.ipk
-    ```
+        $ cd /tmp
+        $ opkg install luci-theme-jj*.ipk
+    
 
-2.2 安装成功后，返回上面`1.2`步骤，有提示`Done`字样即为全部安装成功。
+    2.2 安装成功后，返回上面`1.2`步骤，有提示`Done`字样即为全部安装成功。
 
 ---
 
