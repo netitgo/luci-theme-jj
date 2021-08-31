@@ -26,7 +26,7 @@
 
 1.1 下载好lean大固件后，进入在package/lean/文件夹下git clone我的主题
 
-    ```bash
+    ```
     $ cd lede/packkage/lean
     $ git clone https://github.com/netitgo/luci-theme-jj.git
     ```
@@ -38,7 +38,7 @@
 
 1.2 编译成功和固件安装后，通过SSH到目录路径/www/luci-static/JJTheme/， 赋予文件夹下toggleIndex.sh 运行权限：
 
-    ```bash
+    ```
     $ cd /www/luci-static/JJTheme/
     $ chmod u+x ./toggleIndex.sh
     $ ./toggleIndex.sh
@@ -47,7 +47,7 @@
 
 1.3 登录OPENWRT后台选定JJ Theme为默认主题，然后清除OPENWRT缓存。
 
-    ```bash
+    ```
     $ rm -rf /tmp/luci-modulecache/*
     $ rm /tmp/luci-indexcache
     ```
@@ -56,7 +56,7 @@
 
 2.1 上传IPK文件到tmp，运行
 
-    ```bash
+    ```
     cd /tmp
     opkg install luci-theme-jj*.ipk
     ```
