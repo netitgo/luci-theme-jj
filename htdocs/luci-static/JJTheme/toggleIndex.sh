@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 WORKING_PATH='/usr/lib/lua/luci/view/admin_status/'
 ORIGINAL_FILE='index.htm'
 JJ_FILE='index_jj.htm'
