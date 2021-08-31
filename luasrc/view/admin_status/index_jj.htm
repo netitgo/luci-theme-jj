@@ -917,12 +917,8 @@
 		</div>
 	</div>
 	<%end%>
-
 </div>
-
 <div class="gutter-h"></div>
-
-
 <div class="boxes_container">
 	<div class="box_status_small box_style">
 		<div class="box_title active_connection"><%:Active Connections%></div>
@@ -930,7 +926,8 @@
 			<div id="conns" class="conns_num" style="--p:0%;"></div>
 		</div>
 	</div>
-	<% if has_ipv6 then %>
+	<% --[[if has_ipv6 then 
+	--]]%>
 	<div class="gutter"></div>
 	<div class="box_stauts_medium box_style">
 		<div class="box_title dhcp_ipv6"><%:DHCPv6 Leases%></div>
@@ -947,7 +944,7 @@
 			</table>
 		</div>
 	</div>
-	<%end%>
+	<% --[[end--]]%>
 
 </div>
 
