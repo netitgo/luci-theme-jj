@@ -39,11 +39,11 @@
 
 .time_left_block,
 .time_right_block {
-    width: 88px;
+    width: 90px;
 }
 
 .sys_time {
-    margin-right: 10px;
+    margin-right: 5px;
 }
 
 .node_des {
